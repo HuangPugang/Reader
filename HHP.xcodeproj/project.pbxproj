@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4B4D85EFF7238CC6012A74 /* libPods-HHP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FD883FCF84CD94FA891D93 /* libPods-HHP.a */; };
 		DA2CFB6E1C4E84760032E740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFB6D1C4E84760032E740 /* main.m */; };
 		DA2CFB711C4E84760032E740 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFB701C4E84760032E740 /* AppDelegate.m */; };
-		DA2CFB741C4E84760032E740 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFB731C4E84760032E740 /* ViewController.m */; };
 		DA2CFB771C4E84760032E740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2CFB751C4E84760032E740 /* Main.storyboard */; };
 		DA2CFB791C4E84760032E740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2CFB781C4E84760032E740 /* Assets.xcassets */; };
 		DA2CFB7C1C4E84760032E740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2CFB7A1C4E84760032E740 /* LaunchScreen.storyboard */; };
 		DA2CFB871C4E84770032E740 /* HHPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFB861C4E84770032E740 /* HHPTests.m */; };
 		DA2CFB921C4E84770032E740 /* HHPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFB911C4E84770032E740 /* HHPUITests.m */; };
+		DA2CFBA21C4E96EA0032E740 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFBA11C4E96EA0032E740 /* ListViewController.m */; };
+		DA2CFBA61C4E97C60032E740 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFBA41C4E97C60032E740 /* NewsCell.m */; };
+		DA2CFBA71C4E97C60032E740 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2CFBA51C4E97C60032E740 /* NewsCell.xib */; };
+		DA2CFBAA1C4E97D70032E740 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFBA91C4E97D70032E740 /* News.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A8626EA2A8F6034977F1950 /* Pods-HHP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHP/Pods-HHP.debug.xcconfig"; sourceTree = "<group>"; };
+		27FD883FCF84CD94FA891D93 /* libPods-HHP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2CFB691C4E84760032E740 /* HHP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2CFB6D1C4E84760032E740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA2CFB6F1C4E84760032E740 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA2CFB701C4E84760032E740 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA2CFB721C4E84760032E740 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA2CFB731C4E84760032E740 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA2CFB761C4E84760032E740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA2CFB781C4E84760032E740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2CFB7B1C4E84760032E740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		DA2CFB8D1C4E84770032E740 /* HHPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2CFB911C4E84770032E740 /* HHPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPUITests.m; sourceTree = "<group>"; };
 		DA2CFB931C4E84770032E740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2CFBA01C4E96EA0032E740 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		DA2CFBA11C4E96EA0032E740 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		DA2CFBA31C4E97C60032E740 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		DA2CFBA41C4E97C60032E740 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		DA2CFBA51C4E97C60032E740 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		DA2CFBA81C4E97D70032E740 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		DA2CFBA91C4E97D70032E740 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		EFB226AD604A5762B771EE3F /* Pods-HHP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHP.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHP/Pods-HHP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4B4D85EFF7238CC6012A74 /* libPods-HHP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844E251EA65EE49547656C06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27FD883FCF84CD94FA891D93 /* libPods-HHP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA97032FC16E090B789AB5C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A8626EA2A8F6034977F1950 /* Pods-HHP.debug.xcconfig */,
+				EFB226AD604A5762B771EE3F /* Pods-HHP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA2CFB601C4E84760032E740 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				DA2CFB851C4E84770032E740 /* HHPTests */,
 				DA2CFB901C4E84770032E740 /* HHPUITests */,
 				DA2CFB6A1C4E84760032E740 /* Products */,
+				CA97032FC16E090B789AB5C8 /* Pods */,
+				844E251EA65EE49547656C06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +133,9 @@
 		DA2CFB6B1C4E84760032E740 /* HHP */ = {
 			isa = PBXGroup;
 			children = (
+				DA2CFB9F1C4E96BB0032E740 /* One */,
 				DA2CFB6F1C4E84760032E740 /* AppDelegate.h */,
 				DA2CFB701C4E84760032E740 /* AppDelegate.m */,
-				DA2CFB721C4E84760032E740 /* ViewController.h */,
-				DA2CFB731C4E84760032E740 /* ViewController.m */,
 				DA2CFB751C4E84760032E740 /* Main.storyboard */,
 				DA2CFB781C4E84760032E740 /* Assets.xcassets */,
 				DA2CFB7A1C4E84760032E740 /* LaunchScreen.storyboard */,
@@ -140,6 +171,20 @@
 			path = HHPUITests;
 			sourceTree = "<group>";
 		};
+		DA2CFB9F1C4E96BB0032E740 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				DA2CFBA01C4E96EA0032E740 /* ListViewController.h */,
+				DA2CFBA11C4E96EA0032E740 /* ListViewController.m */,
+				DA2CFBA31C4E97C60032E740 /* NewsCell.h */,
+				DA2CFBA41C4E97C60032E740 /* NewsCell.m */,
+				DA2CFBA51C4E97C60032E740 /* NewsCell.xib */,
+				DA2CFBA81C4E97D70032E740 /* News.h */,
+				DA2CFBA91C4E97D70032E740 /* News.m */,
+			);
+			name = One;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2CFB961C4E84770032E740 /* Build configuration list for PBXNativeTarget "HHP" */;
 			buildPhases = (
+				971628B1AB2E9569FA7DE990 /* Check Pods Manifest.lock */,
 				DA2CFB651C4E84760032E740 /* Sources */,
 				DA2CFB661C4E84760032E740 /* Frameworks */,
 				DA2CFB671C4E84760032E740 /* Resources */,
+				D6B7A4A307A8059BCC045135 /* Embed Pods Frameworks */,
+				F3814646ED40F73F7CD3E36B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +293,7 @@
 			files = (
 				DA2CFB7C1C4E84760032E740 /* LaunchScreen.storyboard in Resources */,
 				DA2CFB791C4E84760032E740 /* Assets.xcassets in Resources */,
+				DA2CFBA71C4E97C60032E740 /* NewsCell.xib in Resources */,
 				DA2CFB771C4E84760032E740 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +314,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		971628B1AB2E9569FA7DE990 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B7A4A307A8059BCC045135 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHP/Pods-HHP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3814646ED40F73F7CD3E36B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHP/Pods-HHP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA2CFB651C4E84760032E740 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2CFB741C4E84760032E740 /* ViewController.m in Sources */,
+				DA2CFBAA1C4E97D70032E740 /* News.m in Sources */,
 				DA2CFB711C4E84760032E740 /* AppDelegate.m in Sources */,
 				DA2CFB6E1C4E84760032E740 /* main.m in Sources */,
+				DA2CFBA61C4E97C60032E740 /* NewsCell.m in Sources */,
+				DA2CFBA21C4E96EA0032E740 /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +510,7 @@
 		};
 		DA2CFB971C4E84770032E740 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8626EA2A8F6034977F1950 /* Pods-HHP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HHP/Info.plist;
@@ -422,6 +522,7 @@
 		};
 		DA2CFB981C4E84770032E740 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB226AD604A5762B771EE3F /* Pods-HHP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HHP/Info.plist;
@@ -498,6 +599,7 @@
 				DA2CFB981C4E84770032E740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2CFB991C4E84770032E740 /* Build configuration list for PBXNativeTarget "HHPTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +608,7 @@
 				DA2CFB9B1C4E84770032E740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2CFB9C1C4E84770032E740 /* Build configuration list for PBXNativeTarget "HHPUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +617,7 @@
 				DA2CFB9E1C4E84770032E740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
