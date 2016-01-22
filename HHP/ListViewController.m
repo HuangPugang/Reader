@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _newses = [NSMutableArray array];
-    self.table.rowHeight = 100;
+    self.table.rowHeight = 118;
     [self networkRequest];
     self.table.mj_header =[MJRefreshNormalHeader headerWithRefreshingBlock:^{
         
