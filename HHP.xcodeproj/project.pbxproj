@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E4B4D85EFF7238CC6012A74 /* libPods-HHP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FD883FCF84CD94FA891D93 /* libPods-HHP.a */; };
+		DA1CFB4E1C5BA2AC00935235 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1CFB4C1C5BA2AC00935235 /* WebViewController.m */; };
+		DA1CFB4F1C5BA2AC00935235 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1CFB4D1C5BA2AC00935235 /* WebViewController.xib */; };
 		DA2CFB6E1C4E84760032E740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFB6D1C4E84760032E740 /* main.m */; };
 		DA2CFB711C4E84760032E740 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFB701C4E84760032E740 /* AppDelegate.m */; };
 		DA2CFB771C4E84760032E740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2CFB751C4E84760032E740 /* Main.storyboard */; };
@@ -19,6 +21,11 @@
 		DA2CFBA61C4E97C60032E740 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFBA41C4E97C60032E740 /* NewsCell.m */; };
 		DA2CFBA71C4E97C60032E740 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2CFBA51C4E97C60032E740 /* NewsCell.xib */; };
 		DA2CFBAA1C4E97D70032E740 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2CFBA91C4E97D70032E740 /* News.m */; };
+		DAFA0CA41C7C94AF00C99E7A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFA0CA31C7C94AF00C99E7A /* UIView+Extension.m */; };
+		DAFA0CA91C7C953400C99E7A /* ReaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFA0CA71C7C953400C99E7A /* ReaderVC.m */; };
+		DAFA0CAA1C7C953400C99E7A /* ReaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFA0CA81C7C953400C99E7A /* ReaderVC.xib */; };
+		DAFA0CAE1C7C95DD00C99E7A /* BookListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFA0CAC1C7C95DD00C99E7A /* BookListVC.m */; };
+		DAFA0CAF1C7C95DD00C99E7A /* BookListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFA0CAD1C7C95DD00C99E7A /* BookListVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +48,9 @@
 /* Begin PBXFileReference section */
 		1A8626EA2A8F6034977F1950 /* Pods-HHP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHP/Pods-HHP.debug.xcconfig"; sourceTree = "<group>"; };
 		27FD883FCF84CD94FA891D93 /* libPods-HHP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1CFB4B1C5BA2AC00935235 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DA1CFB4C1C5BA2AC00935235 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DA1CFB4D1C5BA2AC00935235 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		DA2CFB691C4E84760032E740 /* HHP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2CFB6D1C4E84760032E740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA2CFB6F1C4E84760032E740 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +72,14 @@
 		DA2CFBA51C4E97C60032E740 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		DA2CFBA81C4E97D70032E740 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		DA2CFBA91C4E97D70032E740 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		DAFA0CA21C7C94AF00C99E7A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DAFA0CA31C7C94AF00C99E7A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DAFA0CA61C7C953400C99E7A /* ReaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderVC.h; sourceTree = "<group>"; };
+		DAFA0CA71C7C953400C99E7A /* ReaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderVC.m; sourceTree = "<group>"; };
+		DAFA0CA81C7C953400C99E7A /* ReaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReaderVC.xib; sourceTree = "<group>"; };
+		DAFA0CAB1C7C95DD00C99E7A /* BookListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListVC.h; sourceTree = "<group>"; };
+		DAFA0CAC1C7C95DD00C99E7A /* BookListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListVC.m; sourceTree = "<group>"; };
+		DAFA0CAD1C7C95DD00C99E7A /* BookListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookListVC.xib; sourceTree = "<group>"; };
 		EFB226AD604A5762B771EE3F /* Pods-HHP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHP.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHP/Pods-HHP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +151,8 @@
 		DA2CFB6B1C4E84760032E740 /* HHP */ = {
 			isa = PBXGroup;
 			children = (
+				DAFA0CA51C7C951300C99E7A /* reader */,
+				DAFA0CA11C7C946E00C99E7A /* view */,
 				DA2CFB9F1C4E96BB0032E740 /* One */,
 				DA2CFB6F1C4E84760032E740 /* AppDelegate.h */,
 				DA2CFB701C4E84760032E740 /* AppDelegate.m */,
@@ -181,8 +201,33 @@
 				DA2CFBA51C4E97C60032E740 /* NewsCell.xib */,
 				DA2CFBA81C4E97D70032E740 /* News.h */,
 				DA2CFBA91C4E97D70032E740 /* News.m */,
+				DA1CFB4B1C5BA2AC00935235 /* WebViewController.h */,
+				DA1CFB4C1C5BA2AC00935235 /* WebViewController.m */,
+				DA1CFB4D1C5BA2AC00935235 /* WebViewController.xib */,
 			);
 			name = One;
+			sourceTree = "<group>";
+		};
+		DAFA0CA11C7C946E00C99E7A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA0CA21C7C94AF00C99E7A /* UIView+Extension.h */,
+				DAFA0CA31C7C94AF00C99E7A /* UIView+Extension.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		DAFA0CA51C7C951300C99E7A /* reader */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA0CA61C7C953400C99E7A /* ReaderVC.h */,
+				DAFA0CA71C7C953400C99E7A /* ReaderVC.m */,
+				DAFA0CA81C7C953400C99E7A /* ReaderVC.xib */,
+				DAFA0CAB1C7C95DD00C99E7A /* BookListVC.h */,
+				DAFA0CAC1C7C95DD00C99E7A /* BookListVC.m */,
+				DAFA0CAD1C7C95DD00C99E7A /* BookListVC.xib */,
+			);
+			name = reader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +339,10 @@
 				DA2CFB7C1C4E84760032E740 /* LaunchScreen.storyboard in Resources */,
 				DA2CFB791C4E84760032E740 /* Assets.xcassets in Resources */,
 				DA2CFBA71C4E97C60032E740 /* NewsCell.xib in Resources */,
+				DA1CFB4F1C5BA2AC00935235 /* WebViewController.xib in Resources */,
+				DAFA0CAF1C7C95DD00C99E7A /* BookListVC.xib in Resources */,
 				DA2CFB771C4E84760032E740 /* Main.storyboard in Resources */,
+				DAFA0CAA1C7C953400C99E7A /* ReaderVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2CFBAA1C4E97D70032E740 /* News.m in Sources */,
+				DAFA0CA91C7C953400C99E7A /* ReaderVC.m in Sources */,
+				DA1CFB4E1C5BA2AC00935235 /* WebViewController.m in Sources */,
 				DA2CFB711C4E84760032E740 /* AppDelegate.m in Sources */,
+				DAFA0CAE1C7C95DD00C99E7A /* BookListVC.m in Sources */,
+				DAFA0CA41C7C94AF00C99E7A /* UIView+Extension.m in Sources */,
 				DA2CFB6E1C4E84760032E740 /* main.m in Sources */,
 				DA2CFBA61C4E97C60032E740 /* NewsCell.m in Sources */,
 				DA2CFBA21C4E96EA0032E740 /* ListViewController.m in Sources */,
